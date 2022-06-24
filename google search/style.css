@@ -1,0 +1,51 @@
+body {
+    background-color: #202120;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav div {
+    padding: 6px;
+    margin:5px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-img:hover {
+    background-color: #515151;
+    border-radius: 50%;
+}
+
+.logo-img {
+    border-radius: 20px;
+}
+
+.google-blc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+input {
+    all: unset;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+}

@@ -34,14 +34,18 @@
       </div>
 
       <!-- search bar -->
-      <div style="display:flex;
+      <div class="search-bar" style="display:flex;
       border: 1px solid #6f6368;
        border-radius: 40px;
        width: 500px;
-       padding: 16px ;">
+       padding: 16px ;
+       margin-top: 30px;
+       -webkit-box-shadow: -3px 5px 6px -1px rgba(34, 60, 80, 0.68);
+       -moz-box-shadow: -3px 5px 6px -1px rgba(34, 60, 80, 0.68);
+       box-shadow: -3px 5px 6px -1px rgba(34, 60, 80, 0.68);">
         <div>
           <svg style="width: 18px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path fill="#515151"
+            <path fill=" #6f6368"
               d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
             </path>
           </svg>
@@ -63,8 +67,41 @@
           </svg>
         </div>
       </div>
+
+      <!-- buttons -->
+      <div style="margin-top: 48px;">
+        <button> Google Search</button>
+        <button>I'm Feeling Lucky</button>
+      </div>
+      <div style="margin-top: 30px;">Google offered in:
+        <span class="google-offer" style="color: #8ab4f8; cursor: pointer;">Kyrgyz</span></div>
     </div>
   </div>
+  <footer style="position:absolute;bottom:0;
+   background-color:#171717 ;
+   width: 100vh;">
+    <div style="padding: 10px;">Kyrgyzstan</div>
+
+    <div style="display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;">
+      <div style="display:flex;" class="links">
+        <div>About</div>
+        <div>Adverstising</div>
+        <div>Buissnes</div>
+        <div>Now Search Marks</div>
+      </div>
+      <div style="display:flex;" class="links">
+        <div>Privacy</div>
+        <div>Term</div>
+        <div>Settings</div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 
 </html>

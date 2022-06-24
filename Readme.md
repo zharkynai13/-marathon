@@ -12,3 +12,6 @@
 
 # fifth
 ## https://zharkynai13.github.io/-marathon/HW_5/
+
+# Google search-bar
+## https://zharkynai13.github.io/-marathon/google_search/

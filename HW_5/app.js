@@ -50,7 +50,7 @@ function setTime(value) {
 }
 
 function finishGame() {
-    timeEl.parentNode.remove();
+  timeEl.parentNode.remove();
   board.innerHTML = `<h1>Cчет:<span class="primary">${score}</span></h1>`;
 }
 
